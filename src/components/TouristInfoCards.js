@@ -1,42 +1,5 @@
 import React from "react";
 
-/*
-const cityInfo =[
-    {
-        name: "Glasgow",
-        descrition: "Vibrant and historic, Glasgow city centre is a culture-rich neighbourhood that is home to stunning Victorian architecture, as well as amazing shopping, dining and nightlife.",
-        imageURL: "https://peoplemakeglasgow.com/imager/general/122864/city-centre-GoMA-in-Royal-Exchange-Square-Content-Block_8dc3bdbc8660ad389ec95cdf9b15d797.jpg",
-        moreInfo:"http://peoplemakeglasgow.com",
-
-    },
-    {
-        name: "Manchester",
-        descrition: "Vibrant and historic, GlasgoLocated in Manchester’s city centre, the hotel provides unparalleled access to Spinningfields business district and the shopping and nightlife of Deansgate.",
-        imageURL: "https://eu-assets.simpleview-europe.com/manchester2016/imageresizer/?image=%2Fdmsimgs%2FManchester_Exterior_1__web_135333318.jpg&action=ProductDetailFullWidth2https://peoplemakeglasgow.com/imager/general/122864/city-centre-GoMA-in-Royal-Exchange-Square-Content-Block_8dc3bdbc8660ad389ec95cdf9b15d797.jpg",
-        moreInfo:"http://visitmanchester.com",
-    },
-    {
-        name: "London",
-        descrition: "Explore one of the city’s most magnificent buildings: St Paul’s Cathedral. Step inside Sir Christopher Wren’s architectural masterpiece and discover its striking interior, before climbing up to the Golden Gallery for sweeping views of the capital.",
-        imageURL: "https://cdn.londonandpartners.com/-/media/images/london/visit/whats-on/event-pages/total-london-experience-london-eye.jpg?mw=640&hash=DAACAE727AEEF4B0C52DB938C53115458EB097A0",
-        moreInfo:"http://visitlondon.com",
-    }
-];
-const TouristInfoCards=()=>{
-return (
-    <div className="card">
-        {cityInfo.map((element, index)=> {
-            return
-            <Card key={index} cityInfo={element} />
-        }
-
-        ) };
-	</div>
-    
-)
-};
-*/
-
 const TouristInfoCards = () => {
   return (
     <div className="cards">
@@ -53,7 +16,7 @@ const TouristInfoCards = () => {
             hotel provides unparalleled access to Spinningfields business
             district and the shopping and nightlife of Deansgate.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="http://peoplemakeglasgow.com" className="btn btn-primary">
             Go Glasgow
           </a>
         </div>
@@ -73,7 +36,7 @@ const TouristInfoCards = () => {
             south, the Pennines to the north and east, and the neighbouring city
             of Salford to the west.{" "}
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="http://visitmanchester.com" className="btn btn-primary">
             Go Manchester
           </a>
         </div>
@@ -93,7 +56,7 @@ const TouristInfoCards = () => {
             masterpiece and discover its striking interior, before climbing up
             to the Golden Gallery for sweeping views of the capital."
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="http://visitlondon.com" className="btn btn-primary">
             Go London
           </a>
         </div>
