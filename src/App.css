@@ -50,8 +50,18 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+  margin-left: 50px;
 }
 
 .card {
   width: 18rem;
+  margin-bottom: 10px;
+}
+.cards {
+  margin: 50px;
+  margin-left: 50px;
+}
+
+.list-group {
+  margin: 50px;
 }
