@@ -3,14 +3,14 @@ import React from "react";
 const TouristInfoCards = () => {
   return (
     <div className="cards">
-      <div className="card" style={{ width: 18 + "rem" }}>
+      <div className="card" style={{ width: 25 + "rem" }}>
         <img
           src="https://peoplemakeglasgow.com/imager/general/122864/city-centre-GoMA-in-Royal-Exchange-Square-Content-Block_8dc3bdbc8660ad389ec95cdf9b15d797.jpg"
           className="card-img-top"
           alt=" glasgow image"
         />
         <div className="card-body">
-          <h5 className="card-title">Glasgow</h5>
+          <h5 className="card-title"> Glasgow</h5>
           <p className="card-text">
             Vibrant and historic, GlasgoLocated in Manchester’s city centre, the
             hotel provides unparalleled access to Spinningfields business
@@ -22,11 +22,12 @@ const TouristInfoCards = () => {
         </div>
       </div>
 
-      <div className="card" style={{ width: 18 + "rem" }}>
+      <div className="card" style={{ width: 25 + "rem" }}>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/ad/City_Chambers%2C_George_Square%2C_Glasgow_05.jpg"
+          src="https://eu-assets.simpleview-europe.com/manchester2016/imageresizer/?image=%2Fdbimgs%2FPortland%20Basin%281%29.jpg&action=Background_Overlay"
           className="card-img-top"
           alt=" manchester image"
+          height={266}
         />
         <div className="card-body">
           <h5 className="card-title">Manchester</h5>
@@ -42,7 +43,7 @@ const TouristInfoCards = () => {
         </div>
       </div>
 
-      <div className="card" style={{ width: 18 + "rem" }}>
+      <div className="card" style={{ width: 25 + "rem" }}>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg"
           className="card-img-top"

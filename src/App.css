@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 70px;
   padding: 20px;
   color: white;
   text-align: left;
@@ -20,6 +20,7 @@
 
 .App-title {
   font-size: 1.5em;
+  margin-right: 5em;
 }
 
 .App-content {
@@ -58,10 +59,21 @@ tr {
   margin-bottom: 10px;
 }
 .cards {
-  margin: 50px;
-  margin-left: 50px;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1350px;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  font-weight: bold;
+}
 .list-group {
   margin: 50px;
+  list-style: none;
 }
