@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterInfo = props => {
   return (
-    <footer>
+    <footer className="footer">
       <ul className="list-group">
         {props.hotelContactInfo.map((information, index) => (
           <li key={index}>{information}</li>

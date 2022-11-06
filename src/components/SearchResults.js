@@ -1,7 +1,14 @@
 import React from "react";
 import moment from "moment";
+import { useState } from "react";
 
 const SearchResults = props => {
+  const [clickedRow, setClickedRow] = useState();
+  function handleClick(index) {
+    console.log("clicked");
+    setClickedRow(index);
+  }
+
   return (
     <table className="table">
       <thead className="thead-dark">
@@ -19,7 +26,11 @@ const SearchResults = props => {
       </thead>
       <tbody>
         {props.results.map((booking, index) => (
-          <tr key={index}>
+          <tr
+            key={index}
+            onClick={() => handleClick(index)}
+            className={clickedRow === index ? "highlight" : null}
+          >
             <th scope="row">{booking.id}</th>
             <td>{booking.title}</td>
             <td>{booking.firstName}</td>
@@ -41,4 +52,5 @@ function CalcNumNights(dateIn, dateOut) {
   let checkInDate = moment(dateIn);
   return checkOutDate.diff(checkInDate, "days");
 }
+
 export default SearchResults;
